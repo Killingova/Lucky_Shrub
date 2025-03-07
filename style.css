@@ -1,0 +1,162 @@
+/* =============== Basis-Stile =============== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  body {
+    background: #f9f7f3; /* baby-powder als neutraler Hintergrund */
+    color: #333;
+  }
+  
+  /* =============== Header =============== */
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #0fa3b1; /* moonstone */
+    padding: 15px 20px;
+  }
+  
+  header .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  header .logo img {
+    height: 50px;
+    width: auto;
+  }
+  
+  header h1 {
+    font-size: 1.5rem;
+    color: white;
+  }
+  
+  /* Navigation */
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #b5e2fa; /* uranian-blue */
+  }
+  
+  /* =============== Hero-Banner =============== */
+  .hero {
+    text-align: center;
+    padding: 60px 20px;
+    background: linear-gradient(to right, #0fa3b1, #b5e2fa); /* moonstone -> uranian-blue */
+    color: #fff;
+  }
+  
+  .hero h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+  }
+  
+  .hero button {
+    background: #f9f7f3;
+    color: #0fa3b1;
+    border: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  
+  .hero button:hover {
+    background: #0fa3b1;
+    color: #fff;
+  }
+  
+  /* =============== 3-Spalten-Bereich =============== */
+  .three-columns {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px;
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .three-columns article {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    transition: 0.3s ease;
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.1);
+    text-align: center;
+  }
+  
+  .three-columns article img {
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 15px;
+  }
+  
+  .three-columns article h3 {
+    margin-bottom: 10px;
+    color: #0fa3b1;
+  }
+  
+  .three-columns article p {
+    color: #555;
+  }
+  
+  /* Hover-Effekt */
+  .three-columns article:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.15);
+  }
+  
+  /* =============== Footer =============== */
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #0fa3b1;
+    padding: 15px 20px;
+    color: #fff;
+  }
+  
+  footer .footer-left img {
+    height: 40px;
+    width: auto;
+  }
+  
+  footer .footer-right p {
+    margin-left: 10px;
+    font-size: 0.9rem;
+  }
+  
+  /* =============== Responsive Breakpoints =============== */
+  @media (max-width: 768px) {
+    footer {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    footer .footer-right p {
+      margin-left: 0;
+    }
+  }
+  
