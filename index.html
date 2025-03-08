@@ -1,77 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Lucky Shrub - Professional garden design, landscaping, and plant nursery services in Tucson, Arizona.">
   <title>Lucky Shrub - Garden Design & Landscaping</title>
-  <meta name="description" content="Official homepage of Lucky Shrub, the experts in garden design and landscaping in Tucson, Arizona." />
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- HEADER with Logo & Navigation -->
+  <!-- HEADER -->
   <header>
     <div class="logo">
-      <img src="Asset 3@3x.png" alt="Lucky Shrub Logo" />
+      <img src="Asset 3@3x.png" alt="Lucky Shrub Logo">
       <h1>Lucky Shrub</h1>
     </div>
     <nav>
       <ul>
-        <li><a href="index.html">Home</a></li>
+        <li><a href="#home">Home</a></li>
         <li><a href="#services">Services</a></li>
-        <li><a href="#about">Our Team</a></li>
+        <li><a href="#team">Our Team</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
     </nav>
   </header>
 
-  <!-- MAIN Section -->
+  <!-- MAIN CONTENT -->
   <main>
-    <!-- Hero Banner -->
-    <section class="hero">
+
+    <!-- HERO (Home) -->
+    <section id="home" class="hero">
       <h2>Welcome to Lucky Shrub</h2>
-      <p>Your partner for garden design, landscaping, and maintenance.</p>
-      <button onclick="alert('Get in touch for a free quote!')">Contact Us</button>
+      <p>Your local experts in garden design, landscaping, and maintenance.</p>
+      <a href="#contact" class="btn">Request a Free Quote</a>
     </section>
 
-    <!-- Three-column Section below the banner -->
-    <section class="three-columns">
-      <!-- Column 1 -->
+    <!-- SERVICES -->
+    <section id="services" class="services">
       <article>
-        <img src="indoor_plants.jpg" alt="Indoor Plants" />
+        <img src="indoor_plants.jpg" alt="Indoor Plants">
         <h3>Indoor Plants</h3>
-        <p>
-          Transform your home into a green oasis. Our selection of indoor plants brings fresh air and a comfortable climate to any room.
-        </p>
+        <p>Bring nature indoors with our beautiful selection of houseplants.</p>
       </article>
 
-      <!-- Column 2 -->
       <article>
-        <img src="landscape_design.jpg" alt="Landscape Design" />
+        <img src="landscape_design.jpg" alt="Landscape Design">
         <h3>Landscape Design</h3>
-        <p>
-          From planning to execution – we create individual outdoor spaces that invite you to relax and enjoy the scenery.
-        </p>
+        <p>Custom-designed outdoor spaces crafted for beauty and function.</p>
       </article>
 
-      <!-- Column 3 -->
       <article>
-        <img src="garden_care.jpg" alt="Garden Care" />
+        <img src="garden_care.jpg" alt="Garden Care">
         <h3>Garden Care</h3>
-        <p>
-          Whether regular maintenance or a one-time seasonal check – our team ensures your garden is always in full bloom.
-        </p>
+        <p>Expert garden maintenance to keep your outdoor space thriving.</p>
       </article>
     </section>
+
+    <!-- OUR TEAM -->
+    <section id="team" class="team">
+      <h2>Meet Our Team</h2>
+      <div class="team-grid">
+        <article>
+          <h3>Jason – Garden Architect</h3>
+          <p>Expert designer with over a decade of experience in landscaping.</p>
+        </article>
+
+        <article>
+          <h3>Maria – Marketing & Nursery Manager</h3>
+          <p>Passionate about plants and dedicated to excellent customer service.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+      <h2>Contact Us</h2>
+      <p>Call us at (123) 456-7890 or email us at <a href="mailto:info@luckyshrub.com">info@luckyshrub.com</a></p>
+    </section>
+
   </main>
 
-  <!-- FOOTER with two columns -->
+  <!-- FOOTER -->
   <footer>
-    <div class="footer-left">
-      <img src="Asset 3@3x.png" alt="Lucky Shrub Small Logo" />
+    <div class="footer-logo">
+      <img src="Asset 1@3x.png" alt="Lucky Shrub Logo Small">
     </div>
-    <div class="footer-right">
-      <p>© 2025 Lucky Shrub - All Rights Reserved</p>
+    <div class="footer-info">
+      <p>&copy; 2025 Lucky Shrub – All Rights Reserved</p>
     </div>
   </footer>
 
